@@ -7,18 +7,22 @@ cache =  [] #Storing our answers but will never use them - YAGNI Violation
 #Useless
 
 def func1(a,b):
+    #Will add numbers - Bad Comments
     print("Adding now...")
     return a + b
 
 def func2(a,b):
+    #Will minus numbers - Bad Comments
     print("Subtracting now...")
     return a - b
 
 def func3(a,b):
+    #Will multiply numbers - Bad Comments
     print("Multiplying now...")
     return a * b
 
 def func4(a,b):
+    #Will divide numbers - Bad Comments
     print("Dividing now...")
     return a / b
 
