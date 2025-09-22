@@ -1,3 +1,9 @@
+"""Features:
+- Input validation for numeric values.
+- Division by zero is handled with a ZeroDivisionError.
+- Continuous loop until the user chooses to exit.
+"""
+
 def add(a, b):
     return a + b
 
@@ -8,6 +14,11 @@ def multiply(a, b):
     return a * b
 
 def divide(a, b):
+    """
+    Return the quotient of two numbers.
+        Raises:
+            ZeroDivisionError: If the divisor is zero.
+    """
     if b == 0:
         raise ZeroDivisionError
     return a / b
